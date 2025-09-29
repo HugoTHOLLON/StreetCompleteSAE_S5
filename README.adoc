@@ -116,4 +116,4 @@ Cette section regroupe tous les documents liés au projet :
 - **18/09/2024** : de 9h30 à 12h30 → Pas de réunion car réunion de sprint à venir très bientôt
 - **23/09/2024** : de 14h15 à 17h15 ↴
 - **24/09/2024** : de 9h30 à 17h15 ↴
-- **25/09/2024** : de 9h30 à 12h30 → https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/CR-TT-25-09-25.pdf[Lien vers le CR - A VENIR]
+- **25/09/2024** : de 9h30 à 12h30 → https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/CR-TT-25-09-25.pdf[Lien vers le CR]
