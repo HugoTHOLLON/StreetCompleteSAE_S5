@@ -185,3 +185,35 @@ _OpenStreetMap way before the quest completion_
 
 ![OpenStreetMap way after the quest completion](test_assets/aerialway_bike_quest_after_quest.png)
 _OpenStreetMap way after the quest completion_
+
+## Who may access this tower?
+
+### Issue
+
+#6502
+
+### Quest folder
+
+`quests/tower_access/`
+
+### Overpass turbo query
+
+```
+[out:json][timeout:25];
+// gather results
+nwr["man_made"="tower"]["tower:type"="observation"][!military][!access]["disused"!="yes"]["historic"="yes"]({{bbox}});
+// print results
+out geom;
+```
+
+### Test location
+
+Parc de les Valls d'Ax, Espagne.
+
+### Test result
+
+![OpenStreetMap way before the quest completion](test_assets/tower_access_quest_before_quest.png)
+_OpenStreetMap way before the quest completion_
+
+![OpenStreetMap way after the quest completion](test_assets/tower_access_quest_after_quest.png)
+_OpenStreetMap way after the quest completion_
