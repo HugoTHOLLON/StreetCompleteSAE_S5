@@ -4,7 +4,7 @@ import de.westnordost.streetcomplete.data.osm.edits.split_way.SplitWayAction
 import kotlin.time.Duration.Companion.minutes
 
 object ApplicationConstants {
-    const val NAME = "StreetComplete"
+    const val NAME = "StreetCompleteSAE_S5"
     val USER_AGENT = NAME + " " + BuildConfig.VERSION_NAME
     const val QUESTTYPE_TAG_KEY = NAME + ":quest_type"
 
