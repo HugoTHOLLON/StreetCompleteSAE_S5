@@ -84,7 +84,46 @@ Les overlays permettent de visualiser/éditer directement certains tags OSM :
 - Statistiques personnelles et comparatives motivent le contributeur néophyte à progresser
 
 == Interface de l'application
-A REMPLIR
+.Interface principale de Street Complete
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/interface-principale.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/interface_principale.jpg"] 
+
+=== Quêtes
+.Quêtes/question types à proximité d'un utilisateur
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/quests.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/quests.jpg"] 
+
+.Interface pour édit une quête d'adresse
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/edit_data.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/edit_data.jpg"] 
+
+=== Contributions
+.Nombre de contributions d'un l'utilisateur
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/user_points.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/user_points.jpg"] 
+
+=== Tags
+.Bouton pour afficher les tags
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/tags.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/tags.jpg"]
+
+.Liste des types de tag
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/tags_type.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/tags_type.jpg"] 
+
+==== Filtrer la carte par tag (bâtiment, trottoir, ...)
+.Carte filtré par lampadaire
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/filter.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/filter.jpg"] 
+
+==== Ajouter des tags sur la carte (objet, adresse, ...)
+.Bouton pour ajouter un tag sur la carte
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/add.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/add.jpg"] 
+
+==== Annuler une contribution
+.Historique des contributions qui peuvent être annuler
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/undo.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/undo.jpg"] 
+
+=== User parameters (compte OpenStreetMap, language et thème de StreetComplete, ...)
+.Bouton pour accéder aux paramètres de l'utilisateur 
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/user_parameters.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/user_parameters.jpg"] 
+
+=== Recentrer la position de l'utilisateur
+.Bouton pour recentrer la position de l'utilisateur
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/recenter_position.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/recenter_position.jpg"] 
 
 == Support et Contact
 Pour toute question ou assistance, veuillez contacter notre Product Owner à l'adresse suivante : naria.savary@etu.univ-tlse2.fr
