@@ -85,11 +85,15 @@ Les overlays permettent de visualiser/éditer directement certains tags OSM :
 
 == Interface de l'application
 .Interface principale de Street Complete
-image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/interface-principale.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/interface_principale.jpg"] 
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/interface_principale.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/interface_principale.jpg"] 
 
 === Quêtes
 .Quêtes/question types à proximité d'un utilisateur
 image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/quests.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/quests.jpg"] 
+
+++++
+<br>
+++++
 
 .Interface pour édit une quête d'adresse
 image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/edit_data.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/edit_data.jpg"] 
@@ -101,6 +105,10 @@ image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-
 === Tags
 .Bouton pour afficher les tags
 image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/tags.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/tags.jpg"]
+
+++++
+<br>
+++++
 
 .Liste des types de tag
 image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/tags_type.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/tags_type.jpg"] 
