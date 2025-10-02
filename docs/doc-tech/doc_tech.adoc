@@ -28,36 +28,92 @@ L'équipe était composée de cinq membres avec les rôles suivants :
 - *Nicolas* : Développeur
 
 === Contexte du projet
-A REMPLIR
+Street Complete est une application Android ayant pour but d’améliorer la qualité des données d’Open Street Map avec des enquêtes sur le terrain. L’application fonctionne avec une partie de gamification et invite aux modifications sous forme de quêtes thématiques.
 
 === Objectifs du projet
+Monter en compétence sur :
 
-**Problématique :**  
-A REMPLIR
+- Le modèle de données OSM
+- Kotlin et Kotlin Multiplatform
+- Android Studio et l’environnement mobile
 
-**Objectif :**  
-A REMPLIR
+Réaliser des contributions au projet open source StreetComplete :
+
+- Ajout ou amélioration de quêtes simples
+- Début de migration d’éléments de l’UI vers *Compose Multiplatform*
+- Participation non-code : documentation, traduction, collecte de données
+
+=== Cas d'utilisation
 
 == Fonctionnement du projet 
 
-Pour des informations supplémentaires :
-A REMPLIR
+=== Langage et plateforme
+- Plateforme principale : Android, iOS (en cours)
+- Langage de programmation : Kotlin
 
-== Description des Fichiers
-A REMPLIR
+=== Cartographie
+StreetComplete utilise MapLibre, une collection de cartes SDKs open-source pour du développement web et mobile.
 
-== Dépendances
+=== Communication entre les serveurs OSM (OpenStreetMap)
+- Téléchargement des données OSM via API officielle OpenStreetMap
+- Upload des requêtes utilisateurs (ajout, modification et suppression des données OSM à l'aide de tags) dans la base OSM 
 
-Le projet utilise les dépendances suivantes :
-A REMPLIR
+== Architecture de l'application
 
-== Instructions de Déploiement
-A REMPLIR
+== Fonctionnalités / Quêtes développées
+=== Sprint 1 
+- Faut-il payer pour garer sa moto ?
+- Ce téléphérique transporte-t-il des vélos ?
+- Ce téléphérique est-il utilisable dans les deux sens ?
+- Où est située cette trousse de premiers soins ?
+- Combien de vélos/camions/scooters peuvent être chargés ici ?
 
-== Maintenance
+=== Sprint 2
+- Est-ce que du bois de chauffage est fourni ici ?
+- Qui peut accéder à cette tour ?
+- De quel type d'écluse s'agit-il ?
+- ...
 
-Pour maintenir le projet, suivez ces étapes :
-A REMPLIR
+== Structure des fichiers
+android/ +
+├── app/ +
+│   ├── src/ + 
+│   │   ├── main/ +
+│   │   │   ├── java/ +
+│   │   │   │   └── com/ +
+│   │   │   │       └── streetcomplete/ +
+│   │   │   │           ├── MainActivity.kt +
+│   │   │   │           ├── StreetMapActivity.kt +
+│   │   │   │           ├── quest/ +
+│   │   │   │           │   ├── QuestListViewModel.kt +
+│   │   │   │           │   └── QuestDetailFragment.kt +
+│   │   │   │           ├── overlay/ +
+│   │   │   │           │   └── OverlayManager.kt +
+│   │   │   │           ├── data/ +
+│   │   │   │           │   ├── OSMRepository.kt +
+│   │   │   │           │   └── models/ +
+│   │   │   │           │       └── Quest.kt +
+│   │   │   │           ├── network/ +
+│   │   │   │           │   └── OSMApiService.kt +
+│   │   │   │           └── utils/ +
+│   │   │   │               └── MapUtils.kt +
+│   │   │   ├── res/ +
+│   │   │   │   ├── layout/ +
+│   │   │   │   ├── drawable/ +
+│   │   │   │   └── values/ +
+│   │   │   └── AndroidManifest.xml +
+│   └── build.gradle.kts +
+├── build.gradle.kts +
+└── settings.gradle.kts +
 
-== Conclusion
-A REMPLIR
+**Description :** 
+
+- MainActivity.kt : point d'entrée de l'application.
+- StreetMapActivity.kt : gestion de la carte (MapLibre).
+- quest/ : gestion des quêtes (affichage, logique, modèles).
+- overlay/ : gestion des couches interactives.
+- data/ : accès aux données locales et distantes.
+- network/ : communication avec l’API OSM.
+- res/ : ressources graphiques et layouts.
+- utils/ : fonctions utilitaires.
+
