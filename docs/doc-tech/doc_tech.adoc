@@ -44,6 +44,8 @@ Réaliser des contributions au projet open source StreetComplete :
 - Participation non-code : documentation, traduction, collecte de données
 
 === Cas d'utilisation
+.Diagramme de cas d'utilisation
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/use_case.jpg[width=800, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/use_case.jpg"] 
 
 == Fonctionnement du projet 
 
@@ -59,6 +61,45 @@ StreetComplete utilise MapLibre, une collection de cartes SDKs open-source pour 
 - Upload des requêtes utilisateurs (ajout, modification et suppression des données OSM à l'aide de tags) dans la base OSM 
 
 == Architecture de l'application
+.Diagramme de cas d'utilisation
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/architecture.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/architecture.jpg"] 
+
+++++
+<br>
+++++
+
+**Détails des composants principaux :**
+
+**1. Interface utilisateur (Frontend mobile)**
+
+- Application Android en Kotlin.
+- Affichage basé sur Mapbox/MapLibre pour la carte.
+- Présentation des « quêtes » sous forme de tuiles interactives.
+- Gestion des formulaires pour répondre aux quêtes.
+
+**2. Moteur de quêtes**
+
+- Sélection des quêtes pertinentes en fonction de la localisation, des données OSM existantes et des règles.
+- Déclenchement des formulaires adaptés (ex : type de surface de route, horaires d’un commerce).
+
+**3. Gestion des données locales**
+
+- Téléchargement et stockage temporaire des données OSM (extraits vectoriels).
+- Cache en base de données locale (SQLite).
+- Gestion des quêtes en attente (offline-first).
+
+**4. Communication avec OpenStreetMap**
+
+- Authentification via OAuth.
+- Téléversement des réponses sous forme de changesets OSM.
+- Synchronisation différée si offline.
+
+**5. Services externes**
+
+- Map tiles : MapLibre / Mapbox / serveurs tiers.
+- Téléchargement des extraits de données OSM (via Overpass API ou serveur interne).
+- API OSM standard (modifications, user account).
+
 
 == Fonctionnalités / Quêtes développées
 === Sprint 1 
