@@ -31,7 +31,7 @@ endif::[]
 // /!\ A MODIFIER !!!
 :baseURL: github.com/HugoTHOLLON/StreetCompleteSAE_S5
 
-_Last Update: 29/09/2025_
+_Last Update: 02/10/2025_
 
 _Current version : V1_
 
@@ -80,8 +80,8 @@ Réaliser des contributions au projet open source StreetComplete :
 
 Cette section regroupe tous les documents liés au projet :
 
-- link:docs/doc_tech.adoc[Document technique]
-- link:docs/doc_user.adoc[Document utilisateur]
+- link:docs/doc-tech/doc_tech.adoc[Document technique]
+- link:docs/doc-user/doc_user.adoc[Document utilisateur]
 - link:docs/Tests/QuestsTests.md[Cahier de tests]
 - link:docs/doc_install.md[Guide d'installation]
 - link:docs/Devis.pdf[Chiffrage du projet]
@@ -112,10 +112,13 @@ Cette section regroupe tous les documents liés au projet :
 |===
 
 === Registre de télétravail
-- **03/09/2024** : de 14h15 à 17h15 ↴
-- **04/09/2024** : de 9h30 à 12h30 → https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/CR-TT-04-09-25.pdf[Lien vers le CR]
-- **10/09/2024** : de 9h30 à 17h15 → Pas de réunion, avancement de chacun de son côté
-- **18/09/2024** : de 9h30 à 12h30 → Pas de réunion car réunion de sprint à venir très bientôt
-- **23/09/2024** : de 14h15 à 17h15 ↴
-- **24/09/2024** : de 9h30 à 17h15 ↴
-- **25/09/2024** : de 9h30 à 12h30 → https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/CR-TT-25-09-25.pdf[Lien vers le CR]
+- **03/09/2025** : de 14h15 à 17h15 ↴
+- **04/09/2025** : de 9h30 à 12h30 → https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/CR-TT-04-09-25.pdf[Lien vers le CR]
+- **10/09/2025** : de 9h30 à 17h15 → Pas de réunion, avancement de chacun de son côté
+- **18/09/2025** : de 9h30 à 12h30 → Pas de réunion car réunion de sprint à venir très bientôt
+- **23/09/2025** : de 14h15 à 17h15 ↴
+- **24/09/2025** : de 9h30 à 17h15 ↴
+- **25/09/2025** : de 9h30 à 12h30 → https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/CR-TT-25-09-25.pdf[Lien vers le CR]
+- **01/10/2025** : de 11h05 à 17h15 ↴
+- **02/10/2025** : de 9h30 à 12h30 ↴
+- **03/10/2025** : de 11h05 à 15h45 → https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/CR-TT-03-10-25.pdf[Lien vers le CR - TODO]
