@@ -32,6 +32,7 @@ Street Complete est une application Android ayant pour but d’améliorer la qua
 
 === Objectifs du projet
 Monter en compétence sur :
+
 - Le modèle de données OSM
 - Kotlin et Kotlin Multiplatform
 - Android Studio et l’environnement mobile
