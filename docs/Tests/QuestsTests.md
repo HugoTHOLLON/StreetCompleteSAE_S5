@@ -259,3 +259,37 @@ _OpenStreetMap way before the quest completion_
 
 ![OpenStreetMap way after the quest completion](test_assets/firewood_quest_after.jpg)
 _OpenStreetMap way after the quest completion_
+
+## Sprint 3
+
+### What's the topic of this information board? ("Rules" option added) 
+
+#### Issue
+
+#6147
+
+#### Quest folder
+
+`quests/board_type/`
+
+#### Overpass turbo query
+
+```
+[out:json][timeout:25];
+// gather results
+nwr["tourism"="information"]["information"="board"]({{bbox}});
+// print results
+out geom;
+```
+
+#### Test location
+
+Frouzins, France.
+
+#### Test result
+
+![OpenStreetMap way before the quest completion](test_assets/rules_quest_before.jpg)
+_OpenStreetMap way before the quest completion_
+
+![OpenStreetMap way after the quest completion](test_assets/rules_quest_after.jpg)
+_OpenStreetMap way after the quest completion_
