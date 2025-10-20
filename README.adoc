@@ -31,7 +31,7 @@ endif::[]
 // /!\ A MODIFIER !!!
 :baseURL: github.com/HugoTHOLLON/StreetCompleteSAE_S5
 
-_Last Update: 08/10/2025_
+_Last Update: 20/10/2025_
 
 _Current version : V2_
 
@@ -125,4 +125,4 @@ Cette section regroupe tous les documents liés au projet :
 - **01/10/2025** : de 11h05 à 17h15 ↴
 - **02/10/2025** : de 9h30 à 12h30 ↴
 - **03/10/2025** : de 11h05 à 15h45 → https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/CR-TT-03-10-25.pdf[Lien vers le CR]
-- **09/10/2025** : de 9h30 à 12h30 → https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/CR-TT-03-10-25.pdf[Lien vers le CR - TODO]
+- **21/10/2025** : de 9h30 à 17h15 → https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/CR-TT-21-10-25.pdf[Lien vers le CR - TODO]
