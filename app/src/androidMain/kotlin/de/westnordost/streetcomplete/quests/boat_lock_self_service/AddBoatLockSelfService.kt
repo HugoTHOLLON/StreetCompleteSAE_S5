@@ -6,6 +6,7 @@ import de.westnordost.streetcomplete.data.osm.osmquests.OsmFilterQuestType
 import de.westnordost.streetcomplete.data.quest.AndroidQuest
 import de.westnordost.streetcomplete.data.user.achievements.EditTypeAchievement.OUTDOORS
 import de.westnordost.streetcomplete.osm.Tags
+import de.westnordost.streetcomplete.osm.updateWithCheckDate
 import de.westnordost.streetcomplete.quests.YesNoQuestForm
 import de.westnordost.streetcomplete.util.ktx.toYesNo
 
@@ -23,6 +24,6 @@ class AddBoatLockSelfService : OsmFilterQuestType<Boolean>(), AndroidQuest {
     override fun createForm() = YesNoQuestForm()
 
     override fun applyAnswerTo(answer: Boolean, tags: Tags, geometry: ElementGeometry, timestampEdited: Long) {
-        tags["self_service"] = answer.toYesNo()
+        tags.updateWithCheckDate("self_service", answer.toYesNo())
     }
 }
