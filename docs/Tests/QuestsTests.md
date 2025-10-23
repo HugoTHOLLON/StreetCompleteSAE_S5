@@ -45,7 +45,7 @@ The changes have been rollbacked because we do not possess enough informations o
 
 #### Quest folder
 
-`quests/bothway/`
+`quests/aerialBothWay/`
 
 #### Overpass turbo query
 
@@ -172,21 +172,30 @@ The changes have been rollbacked because we do not possess enough informations o
 #### Overpass turbo query
 
 ```
-way["aerialway"][!bicycle]({{bbox}});
+way["aerialway"~"cable_car|gondola|chair_lift"][!"aerialway:bicycle"][!"bicycle"]({{bbox}});
 out geom meta;
 ```
 
 #### Test location
 
-Lac de Sames, France.
+Chemin: Taillas
+Chemin: Chatégré
 
 #### Test result
 
-![OpenStreetMap way before the quest completion](test_assets/aerialway_bike_quest_before_quest.png)
+![OpenStreetMap way before the quest completion](test_assets/aerialway_bike_quest_before_quest_chategre.png)
 _OpenStreetMap way before the quest completion_
 
-![OpenStreetMap way after the quest completion](test_assets/aerialway_bike_quest_after_quest.png)
+![OpenStreetMap way after the quest completion](test_assets/aerialway_bike_quest_after_quest_chategre.png)
 _OpenStreetMap way after the quest completion_
+
+![OpenStreetMap way before the quest completion](test_assets/aerialway_bike_quest_before_quest_taillas.png)
+_OpenStreetMap way before the quest completion with the "no_signed" answer_
+
+![OpenStreetMap way after the quest completion](test_assets/aerialway_bike_quest_after_quest_taillas.png)
+_OpenStreetMap way after the quest completion with the "no_signed" answer_
+
+The changes have been rollbacked because we do not possess enough informations on the place to be sure of the information we gave.
 
 ## Sprint 2
 
@@ -260,6 +269,37 @@ _OpenStreetMap way before the quest completion_
 ![OpenStreetMap way after the quest completion](test_assets/firewood_quest_after.jpg)
 _OpenStreetMap way after the quest completion_
 
+### Is this lock self_service?
+
+#### Issue
+
+#6540
+
+#### Quest folder
+
+`quests/boat_lock_self_service/`
+
+#### Overpass turbo query
+
+```
+way["lock"="yes"][!self_service]({{bbox}});
+out geom meta;
+```
+
+#### Test location
+
+Écluse de Lalande
+
+#### Test result
+
+![OpenStreetMap way before the quest completion](test_assets/lock_self_service_quest_before_quest.png)
+_OpenStreetMap way before the quest completion_
+
+![OpenStreetMap way after the quest completion](test_assets/lock_self_service_quest_after_quest.png)
+_OpenStreetMap way after the quest completion_
+
+The changes have been rollbacked because we do not possess enough informations on the place to be sure of the information we gave.
+
 ## Sprint 3
 
 ### What's the topic of this information board? ("Rules" option added) 
@@ -293,3 +333,34 @@ _OpenStreetMap way before the quest completion_
 
 ![OpenStreetMap way after the quest completion](test_assets/rules_quest_after.jpg)
 _OpenStreetMap way after the quest completion_
+
+### Is there hot water here?
+
+#### Issue
+
+#6548
+
+#### Quest folder
+
+`quests/hot_water/`
+
+#### Overpass turbo query
+
+```
+way["amenity"="shower"]["fee"="no"][!"hot_water"][!"shower:hot_water"]({{bbox}});
+out geom meta;
+```
+
+#### Test location
+
+43.173917, 3.1857722
+
+#### Test result
+
+![OpenStreetMap way before the quest completion](test_assets/hot_water_quest_before_quest.png)
+_OpenStreetMap way before the quest completion_
+
+![OpenStreetMap way after the quest completion](test_assets/hot_water_quest_after_quest.png)
+_OpenStreetMap way after the quest completion_
+
+The changes have been rollbacked because we do not possess enough informations on the place to be sure of the information we gave.
