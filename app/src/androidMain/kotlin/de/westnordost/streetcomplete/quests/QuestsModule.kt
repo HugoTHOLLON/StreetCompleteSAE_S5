@@ -43,7 +43,7 @@ import de.westnordost.streetcomplete.quests.bike_shop.AddBikeRepairAvailability
 import de.westnordost.streetcomplete.quests.bike_shop.AddSecondHandBicycleAvailability
 import de.westnordost.streetcomplete.quests.board_name.AddBoardName
 import de.westnordost.streetcomplete.quests.board_type.AddBoardType
-import de.westnordost.streetcomplete.quests.boat_lock_type.AddBoatLockType
+import de.westnordost.streetcomplete.quests.boat_lock_self_service.AddBoatLockSelfService
 import de.westnordost.streetcomplete.quests.boat_rental.AddBoatRental
 import de.westnordost.streetcomplete.quests.bollard_type.AddBollardType
 import de.westnordost.streetcomplete.quests.bothway.AddAerialBothWay
@@ -342,7 +342,7 @@ fun questTypeRegistry(
     43 to AddTrafficSignalsButton(),
     44 to AddTrafficSignalsVibration(),
 
-    186 to AddBoatLockType(),
+    186 to AddBoatLockSelfService(),
 
     /* ↓ 2.solvable when right in front of it ----------------------------------------------- */
     45 to AddInformationToTourism(), // OSM Carto
