@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- This ( app/src/main/res/values/strings.xml ) is the source file for the app’s strings in en-US.
+<!-- app/src/androidMain/res/values/strings.xml is the source file for the app’s strings in en-US.
      All other strings.xml are imported from POEditor crowd translation platform.
 
      The strings are sorted into categories to
@@ -1163,6 +1163,13 @@ A level counts as a roof level when its windows are in the roof. Subsequently, r
     <string name="quest_genericRef_title">What’s the identification number here?</string>
 
     <string name="quest_gritBinSeasonal_title">Is this also here outside of winter?</string>
+
+    <string name="quest_is_monument_or_memorial_title">Is this a monument or a memorial?</string>
+    <string name="quest_is_monument_or_memorial_hint">A memorial is a small structure or statue established to remind people of a person or event. A monument has the same purpose but is a especially large or tall structure (one can go inside, walk on or through it).</string>
+    <string name="quest_is_monument_or_memorial_option_monument">Monument</string>
+    <string name="quest_is_monument_or_memorial_option_memorial">Memorial</string>
+
+   <string name="quest_monument_name_title">What’s the name of this monument?</string>
 
     <string name="quest_hairdresser_title">Which customers visit this hairdresser?</string>
     <string name="quest_hairdresser_male_and_female">Anyone</string>
