@@ -2,7 +2,7 @@
 
 ## Sprint 1
 
-### Where is this first aid kit located?
+### Quest: Where is this first aid kit located?
 
 #### Issue
 
@@ -30,14 +30,16 @@ Coordinates: 43.3953386 / 5.0352321 (lat/lon)
 **Successful**
 
 ![OpenStreetMap node before the quest completion](test_assets/first_aid_kit_quest_node_before_quest.png)
+
 _OpenStreetMap node before the quest completion_
 
 ![OpenStreetMap node after the quest completion](test_assets/first_aid_kit_quest_node_after_quest.png)
+
 _OpenStreetMap node after the quest completion_
 
 The changes have been rollbacked because we do not possess enough informations on the place to be sure of the information we gave.
 
-### In what direction can you ride this? Can you use this lift in both directions?
+In what direction can you ride this? Can you use this lift in both directions?
 
 #### Issue:
 
@@ -61,12 +63,16 @@ Lac de Sames, France.
 #### Test result
 
 ![OpenStreetMap way before the quest completion](test_assets/bothway_quest_before_quest.png)
+
 _OpenStreetMap way before the quest completion_
 
 ![OpenStreetMap way after the quest completion](test_assets/bothway_quest_after_quest.png)
+
 _OpenStreetMap way after the quest completion_
 
-### How many bikes can be charged here at the same time?
+---
+
+### Quest: How many bikes can be charged here at the same time?
 
 #### Issue
 
@@ -90,14 +96,18 @@ Lac de la Ramée, Chemin Anne Caroline Chausson
 #### Test result
 
 ![OpenStreetMap node before the quest completion](test_assets/bike_charging_station_capacity_before_quest.png)
+
 _OpenStreetMap node before the quest completion_
 
 ![OpenStreetMap node after the quest completion](test_assets/bike_charging_station_capacity_after_quest.png)
+
 _OpenStreetMap node after the quest completion_
 
 The changes have been rollbacked because we do not possess enough informations on the place to be sure of the information we gave.
 
-### How many scooters can be charged here at the same time?
+---
+
+### Quest: How many scooters can be charged here at the same time?
 
 #### Issue
 
@@ -123,12 +133,16 @@ Carrer de Baltasar Orio i Mercer
 #### Test result
 
 ![OpenStreetMap node before the quest completion](test_assets/scooter_charging_station_capacity_before_quest.png)
+
 _OpenStreetMap node before the quest completion_
 
 ![OpenStreetMap node after the quest completion](test_assets/scooter_charging_station_capacity_after_quest.png)
+
 _OpenStreetMap node after the quest completion_
 
-### Do you have to pay to park your motorcycle here?
+---
+
+### Quest: Do you have to pay to park your motorcycle here?
 
 #### Issue
 
@@ -152,14 +166,18 @@ Rue de la charité, Toulouse
 #### Test result
 
 ![OpenStreetMap way before the quest completion](test_assets/motorcycle_fee_before_quest.png)
+
 _OpenStreetMap way before the quest completion_
 
 ![OpenStreetMap way after the quest completion](test_assets/motorcycle_fee_after_quest.png)
+
 _OpenStreetMap way after the quest completion_
 
 The changes have been rollbacked because we do not possess enough informations on the place to be sure of the information we gave.
 
-### Does this aerialway transport bikes?
+---
+
+### Quest: Does this aerialway transport bikes?
 
 #### Issue
 
@@ -184,22 +202,26 @@ Chemin: Chatégré
 #### Test result
 
 ![OpenStreetMap way before the quest completion](test_assets/aerialway_bike_quest_before_quest_chategre.png)
+
 _OpenStreetMap way before the quest completion_
 
 ![OpenStreetMap way after the quest completion](test_assets/aerialway_bike_quest_after_quest_chategre.png)
+
 _OpenStreetMap way after the quest completion_
 
 ![OpenStreetMap way before the quest completion](test_assets/aerialway_bike_quest_before_quest_taillas.png)
+
 _OpenStreetMap way before the quest completion with the "no_signed" answer_
 
 ![OpenStreetMap way after the quest completion](test_assets/aerialway_bike_quest_after_quest_taillas.png)
+
 _OpenStreetMap way after the quest completion with the "no_signed" answer_
 
 The changes have been rollbacked because we do not possess enough informations on the place to be sure of the information we gave.
 
 ## Sprint 2
 
-### Who may access this tower?
+### Quest: Who may access this tower?
 
 #### Issue
 
@@ -226,12 +248,16 @@ Parc de les Valls d'Ax, Espagne.
 #### Test result
 
 ![OpenStreetMap way before the quest completion](test_assets/tower_access_quest_before_quest.png)
+
 _OpenStreetMap way before the quest completion_
 
 ![OpenStreetMap way after the quest completion](test_assets/tower_access_quest_after_quest.png)
+
 _OpenStreetMap way after the quest completion_
 
-### Is firewood provided here?
+---
+
+### Quest: Is firewood provided here?
 
 #### Issue
 
@@ -248,9 +274,9 @@ _OpenStreetMap way after the quest completion_
 // gather results
 (
   nwr["leisure"="firepit"][!"wood_provided"]["access"!~"no|private"]({{bbox}});
-  
+
   nwr["amenity"="bbq"]["fuel"="wood"][!"wood_provided"]["access"!~"no|private"]({{bbox}});
-  
+
   nwr["tourism"="wilderness_hut"]["fireplace"="yes"][!"wood_provided"]["access"!~"no|private"]({{bbox}});
 );
 // print results
@@ -264,12 +290,16 @@ Gazebo, États-Unis (Californie).
 #### Test result
 
 ![OpenStreetMap way before the quest completion](test_assets/firewood_quest_before.jpg)
+
 _OpenStreetMap way before the quest completion_
 
 ![OpenStreetMap way after the quest completion](test_assets/firewood_quest_after.jpg)
+
 _OpenStreetMap way after the quest completion_
 
-### Is this lock self_service?
+---
+
+### Quest: Is this lock self_service?
 
 #### Issue
 
@@ -293,16 +323,18 @@ out geom meta;
 #### Test result
 
 ![OpenStreetMap way before the quest completion](test_assets/lock_self_service_quest_before_quest.png)
+
 _OpenStreetMap way before the quest completion_
 
 ![OpenStreetMap way after the quest completion](test_assets/lock_self_service_quest_after_quest.png)
+
 _OpenStreetMap way after the quest completion_
 
 The changes have been rollbacked because we do not possess enough informations on the place to be sure of the information we gave.
 
 ## Sprint 3
 
-### What's the topic of this information board? ("Rules" option added) 
+### Quest: What's the topic of this information board? ("Rules" option added)
 
 #### Issue
 
@@ -329,12 +361,16 @@ Frouzins, France.
 #### Test result
 
 ![OpenStreetMap way before the quest completion](test_assets/rules_quest_before.jpg)
+
 _OpenStreetMap way before the quest completion_
 
 ![OpenStreetMap way after the quest completion](test_assets/rules_quest_after.jpg)
+
 _OpenStreetMap way after the quest completion_
 
-### Is there hot water here?
+---
+
+### Quest: Is there hot water here?
 
 #### Issue
 
@@ -358,9 +394,87 @@ out geom meta;
 #### Test result
 
 ![OpenStreetMap way before the quest completion](test_assets/hot_water_quest_before_quest.png)
+
 _OpenStreetMap way before the quest completion_
 
 ![OpenStreetMap way after the quest completion](test_assets/hot_water_quest_after_quest.png)
+
 _OpenStreetMap way after the quest completion_
 
 The changes have been rollbacked because we do not possess enough informations on the place to be sure of the information we gave.
+
+---
+
+### Quest: Is this a monument or a memorial?
+
+#### Issue
+
+#6042
+
+#### Quest folder
+
+`quests/monument_memorial_name/`
+
+#### Overpass turbo query
+
+```
+nwr["historic"="monument"][!name][noname!=yes]({{bbox}});
+out geom;
+```
+
+#### Test location
+
+43.8278354, 1.295778 (lat, lon)
+
+Grisolles, France
+
+#### Test result
+
+![OpenStreetMap node before the quest completion](test_assets/is_monument_memorial_quest_before.png)
+
+_OpenStreetMap node before the quest completion_
+
+![OpenStreetMap node after the quest completion](test_assets/is_monument_memorial_quest_after.png)
+
+_OpenStreetMap node after the quest completion_
+
+---
+
+### Quest: What's the name of this monument?
+
+#### Issue
+
+#6042
+
+#### Quest folder
+
+`quests/monument_memorial_name/`
+
+#### Overpass turbo query
+
+```
+nwr["historic"="monument"][!name][noname!=yes]({{bbox}});
+out geom;
+```
+
+#### Test location
+
+43.8281442, 1.2995449 (lat, lon)
+
+Grisolles, France
+
+#### Test result
+
+![OpenStreetMap node before the quest completion](test_assets/name_monument_quest_before.png)
+
+_OpenStreetMap node before the quest completion_
+
+![OpenStreetMap node after the quest completion](test_assets/name_monument_quest_after_1.png)
+
+_OpenStreetMap node after adding a name_
+
+![OpenStreetMap node after the quest completion](test_assets/name_monument_quest_after_2.png)
+
+_OpenStreetMap node after adding that there is no name_
+
+The changes have been rollbacked because this node will be used for further testing.
