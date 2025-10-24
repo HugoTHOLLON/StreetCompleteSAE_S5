@@ -113,8 +113,15 @@ image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-
 - Est-ce que du bois de chauffage est fourni ici ?
 - Qui peut accéder à cette tour ?
 - De quel type d'écluse s'agit-il ?
-- Quel type de borne de recharge pour véhicule électrique est disponible à proximité ?
 - Replacement du marqueur de quête qui est en dehors des zones ayant des formes atypiques.
+
+=== Sprint 3
+- Quel type de borne de recharge pour véhicule électrique est disponible à proximité ?
+- Quel est le type de ce tableau ? (option ajoutée pour savoir si c'est un tableau de règles)
+- Quel est le nom de ce monument ? 
+- Ce bâtiment est un mémorial ou un monument ?
+- Ce lieu possède de l'eau chaude ?
+- Replacement du marqueur de quête qui est en dehors des zones ayant des formes atypiques (Version améliorée).
 
 == Structure des fichiers
 android/ +
