@@ -29,11 +29,11 @@ Coordinates: 43.3953386 / 5.0352321 (lat/lon)
 
 **Successful**
 
-![OpenStreetMap node before the quest completion](test_assets/first_aid_kit_quest_node_before_quest.png)
+<img alt="OpenStreetMap node before the quest completion" src="test_assets/first_aid_kit_quest_node_before_quest.png" width="300px" />
 
 _OpenStreetMap node before the quest completion_
 
-![OpenStreetMap node after the quest completion](test_assets/first_aid_kit_quest_node_after_quest.png)
+<img alt="OpenStreetMap node after the quest completion" src="test_assets/first_aid_kit_quest_node_after_quest.png" width="300px" />
 
 _OpenStreetMap node after the quest completion_
 
@@ -62,11 +62,11 @@ Lac de Sames, France.
 
 #### Test result
 
-![OpenStreetMap way before the quest completion](test_assets/bothway_quest_before_quest.png)
+<img alt="OpenStreetMap way before the quest completion" src="test_assets/bothway_quest_before_quest.png" width="300px" />
 
 _OpenStreetMap way before the quest completion_
 
-![OpenStreetMap way after the quest completion](test_assets/bothway_quest_after_quest.png)
+<img alt="OpenStreetMap way after the quest completion" src="test_assets/bothway_quest_after_quest.png" width="300px" />
 
 _OpenStreetMap way after the quest completion_
 
@@ -95,11 +95,11 @@ Lac de la Ramée, Chemin Anne Caroline Chausson
 
 #### Test result
 
-![OpenStreetMap node before the quest completion](test_assets/bike_charging_station_capacity_before_quest.png)
+<img alt="OpenStreetMap node before the quest completion" src="test_assets/bike_charging_station_capacity_before_quest.png" width="300px" />
 
 _OpenStreetMap node before the quest completion_
 
-![OpenStreetMap node after the quest completion](test_assets/bike_charging_station_capacity_after_quest.png)
+<img alt="OpenStreetMap node after the quest completion" src="test_assets/bike_charging_station_capacity_after_quest.png" width="300px" />
 
 _OpenStreetMap node after the quest completion_
 
@@ -132,11 +132,11 @@ Carrer de Baltasar Orio i Mercer
 
 #### Test result
 
-![OpenStreetMap node before the quest completion](test_assets/scooter_charging_station_capacity_before_quest.png)
+<img alt="OpenStreetMap node before the quest completion" src="test_assets/scooter_charging_station_capacity_before_quest.png" width="300px" />
 
 _OpenStreetMap node before the quest completion_
 
-![OpenStreetMap node after the quest completion](test_assets/scooter_charging_station_capacity_after_quest.png)
+<img alt="OpenStreetMap node after the quest completion" src="test_assets/scooter_charging_station_capacity_after_quest.png" width="300px" />
 
 _OpenStreetMap node after the quest completion_
 
@@ -165,11 +165,11 @@ Rue de la charité, Toulouse
 
 #### Test result
 
-![OpenStreetMap way before the quest completion](test_assets/motorcycle_fee_before_quest.png)
+<img alt="OpenStreetMap way before the quest completion" src="test_assets/motorcycle_fee_before_quest.png" width="300px" />
 
 _OpenStreetMap way before the quest completion_
 
-![OpenStreetMap way after the quest completion](test_assets/motorcycle_fee_after_quest.png)
+<img alt="OpenStreetMap way after the quest completion" src="test_assets/motorcycle_fee_after_quest.png" width="300px" />
 
 _OpenStreetMap way after the quest completion_
 
@@ -201,19 +201,19 @@ Chemin: Chatégré
 
 #### Test result
 
-![OpenStreetMap way before the quest completion](test_assets/aerialway_bike_quest_before_quest_chategre.png)
+<img alt="OpenStreetMap way before the quest completion" src="test_assets/aerialway_bike_quest_before_quest_chategre.png" width="300px" />
 
 _OpenStreetMap way before the quest completion_
 
-![OpenStreetMap way after the quest completion](test_assets/aerialway_bike_quest_after_quest_chategre.png)
+<img alt="OpenStreetMap way after the quest completion" src="test_assets/aerialway_bike_quest_after_quest_chategre.png" width="300px" />
 
 _OpenStreetMap way after the quest completion_
 
-![OpenStreetMap way before the quest completion](test_assets/aerialway_bike_quest_before_quest_taillas.png)
+<img alt="OpenStreetMap way before the quest completion" src="test_assets/aerialway_bike_quest_before_quest_taillas.png" width="300px" />
 
 _OpenStreetMap way before the quest completion with the "no_signed" answer_
 
-![OpenStreetMap way after the quest completion](test_assets/aerialway_bike_quest_after_quest_taillas.png)
+<img alt="OpenStreetMap way after the quest completion" src="test_assets/aerialway_bike_quest_after_quest_taillas.png" width="300px" />
 
 _OpenStreetMap way after the quest completion with the "no_signed" answer_
 
@@ -247,11 +247,11 @@ Parc de les Valls d'Ax, Espagne.
 
 #### Test result
 
-![OpenStreetMap way before the quest completion](test_assets/tower_access_quest_before_quest.png)
+<img alt="OpenStreetMap way before the quest completion" src="test_assets/tower_access_quest_before_quest.png" width="300px" />
 
 _OpenStreetMap way before the quest completion_
 
-![OpenStreetMap way after the quest completion](test_assets/tower_access_quest_after_quest.png)
+<img alt="OpenStreetMap way after the quest completion" src="test_assets/tower_access_quest_after_quest.png" width="300px" />
 
 _OpenStreetMap way after the quest completion_
 
@@ -289,11 +289,11 @@ Gazebo, États-Unis (Californie).
 
 #### Test result
 
-![OpenStreetMap way before the quest completion](test_assets/firewood_quest_before.jpg)
+<img alt="OpenStreetMap way before the quest completion" src="test_assets/firewood_quest_before.jpg" width="300px" />
 
 _OpenStreetMap way before the quest completion_
 
-![OpenStreetMap way after the quest completion](test_assets/firewood_quest_after.jpg)
+<img alt="OpenStreetMap way after the quest completion" src="test_assets/firewood_quest_after.jpg" width="300px" />
 
 _OpenStreetMap way after the quest completion_
 
@@ -322,11 +322,11 @@ out geom meta;
 
 #### Test result
 
-![OpenStreetMap way before the quest completion](test_assets/lock_self_service_quest_before_quest.png)
+<img alt="OpenStreetMap way before the quest completion" src="test_assets/lock_self_service_quest_before_quest.png" width="300px" />
 
 _OpenStreetMap way before the quest completion_
 
-![OpenStreetMap way after the quest completion](test_assets/lock_self_service_quest_after_quest.png)
+<img alt="OpenStreetMap way after the quest completion" src="test_assets/lock_self_service_quest_after_quest.png" width="300px" />
 
 _OpenStreetMap way after the quest completion_
 
@@ -360,11 +360,11 @@ Frouzins, France.
 
 #### Test result
 
-![OpenStreetMap way before the quest completion](test_assets/rules_quest_before.jpg)
+<img alt="OpenStreetMap way before the quest completion" src="test_assets/rules_quest_before.jpg" width="300px" />
 
 _OpenStreetMap way before the quest completion_
 
-![OpenStreetMap way after the quest completion](test_assets/rules_quest_after.jpg)
+<img alt="OpenStreetMap way after the quest completion" src="test_assets/rules_quest_after.jpg" width="300px" />
 
 _OpenStreetMap way after the quest completion_
 
@@ -393,11 +393,11 @@ out geom meta;
 
 #### Test result
 
-![OpenStreetMap way before the quest completion](test_assets/hot_water_quest_before_quest.png)
+<img alt="OpenStreetMap way before the quest completion" src="test_assets/hot_water_quest_before_quest.png" width="300px" />
 
 _OpenStreetMap way before the quest completion_
 
-![OpenStreetMap way after the quest completion](test_assets/hot_water_quest_after_quest.png)
+<img alt="OpenStreetMap way after the quest completion" src="test_assets/hot_water_quest_after_quest.png" width="300px" />
 
 _OpenStreetMap way after the quest completion_
 
@@ -430,11 +430,11 @@ Grisolles, France
 
 #### Test result
 
-![OpenStreetMap node before the quest completion](test_assets/is_monument_memorial_quest_before.png)
+<img alt="OpenStreetMap node before the quest completion" src="test_assets/is_monument_memorial_quest_before.png" width="300px" />
 
 _OpenStreetMap node before the quest completion_
 
-![OpenStreetMap node after the quest completion](test_assets/is_monument_memorial_quest_after.png)
+<img alt="OpenStreetMap node after the quest completion" src="test_assets/is_monument_memorial_quest_after.png" width="300px" />
 
 _OpenStreetMap node after the quest completion_
 
@@ -465,15 +465,15 @@ Grisolles, France
 
 #### Test result
 
-![OpenStreetMap node before the quest completion](test_assets/name_monument_quest_before.png)
+<img alt="OpenStreetMap node before the quest completion" src="test_assets/name_monument_quest_before.png" width="300px" />
 
 _OpenStreetMap node before the quest completion_
 
-![OpenStreetMap node after the quest completion](test_assets/name_monument_quest_after_1.png)
+<img alt="OpenStreetMap node after the quest completion" src="test_assets/name_monument_quest_after_1.png" width="300px" />
 
 _OpenStreetMap node after adding a name_
 
-![OpenStreetMap node after the quest completion](test_assets/name_monument_quest_after_2.png)
+<img alt="OpenStreetMap node after the quest completion" src="test_assets/name_monument_quest_after_2.png" width="300px" />
 
 _OpenStreetMap node after adding that there is no name_
 
