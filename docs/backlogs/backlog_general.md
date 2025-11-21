@@ -28,6 +28,7 @@
 - [x] **US09** – *Savoir quel type de borne de recharge pour véhicule électrique est disponible à proximité* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/57)*
 - [x] **US10** – *Savoir si de l'eau chaude se trouve ici* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/58)*  
 - [x] **US11** – *Ecrire le nom du monument s'il est manquant* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/67)*
+- [x] **US12** – *Savoir si c'est un tableau de règles* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/61)*
 
 ### ⭐ **P2 – Priorité Moyenne**
 - N/A
@@ -67,6 +68,7 @@
 | US09 | US | P1 | v3.0 | #57 |
 | US10 | US | P1 | v3.0 | #58 |
 | US11 | US | P1 | v3.0 | #67 |
+| US12 | US | P1 | v3.0 | #61 |
 | BUG_1 | Tâche | P1 | v2.0 | #42 |
 | DOC_1 | Tâche | P1 | v2.0 | #41 |
 | DOC_2 | Tâche | P1 | v2.0 | #11 |
