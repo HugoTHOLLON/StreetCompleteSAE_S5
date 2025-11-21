@@ -123,6 +123,8 @@ image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-
 - Ce lieu possède de l'eau chaude ?
 - Replacement du marqueur de quête qui est en dehors des zones ayant des formes atypiques (Version améliorée).
 
+=== Sprint 4
+
 == Structure des fichiers
 android/ +
 ├── app/ +
