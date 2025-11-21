@@ -478,3 +478,5 @@ _OpenStreetMap node after adding a name_
 _OpenStreetMap node after adding that there is no name_
 
 The changes have been rollbacked because this node will be used for further testing.
+
+## Sprint 4
