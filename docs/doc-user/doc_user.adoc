@@ -138,12 +138,21 @@ image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-
 image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/add.jpg[width=200, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/add.jpg"] 
 
 ==== Annuler une contribution
-.Historique des contributions qui peuvent être annuler
+.Bouton pour annuler
 image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/undo.jpg[width=200, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/undo.jpg"] 
+
+.Historique des contributions qui peuvent être annulées
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/undo1.jpg[width=200, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/undo1.jpg"]
+
+.Formulaire de validation de retour en arrière
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/undo2.jpg[width=200, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/undo2.jpg"]
 
 === User parameters (compte OpenStreetMap, language et thème de StreetComplete, ...)
 .Bouton pour accéder aux paramètres de l'utilisateur 
 image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/user_parameters.jpg[width=200, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/user_parameters.jpg"] 
+
+.Paramètres de l'utilisateur (Connexion, Setting, Dwld data, Upload answers)
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/user_parameters1.jpg[width=200, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-user/doc-user-assets/user_parameters1.jpg"] 
 
 === Recentrer la position de l'utilisateur
 .Bouton pour recentrer la position de l'utilisateur
