@@ -7,28 +7,34 @@
 :toc: macro
 :window: _blank
 :correction!:
+:!toc-title:
 
 toc::[]
 
-Date : 04/09/2025 +
-Equipe : 1A-1 +
-Client : Yahn Formanczak +
-Projet : Street Complete +
+Date : 21/11/2025 +
+Equipe : 11 - 1A +
+Client : mailto:yahn.formanczak@univ-tlse2.fr[Yahn Formanczak] +
+Projet : StreetComplete +
 
 == Description du projet
 
 === Équipe
 
-L'équipe était composée de cinq membres avec les rôles suivants :
+Projet réalisé par:
 
-- *Hugo Thollon* : Scrum Master
-- *Naria Savary* : Product Owner
-- *Pablo Marquet* : Développeur
-- *Raphaël Lamothe* : Développeur
-- *Nicolas* : Développeur
+|===
+| Nom | Rôle 
+| https://github.com/HugoTHOLLON[Hugo Thollon] | Scrum Master
+| https://github.com/NariaReynhard[Naria Savary] | Product Owner
+| https://github.com/ElPoraz[Pablo Marquet] | Développeur  
+| https://github.com/RaphaLLamothe[Raphaël Lamothe] | Développeur
+| https://github.com/NicodeH[Nicolas Ho] | Développeur
+|===
 
 === Contexte du projet
-Street Complete est une application Android ayant pour but d’améliorer la qualité des données d’Open Street Map avec des enquêtes sur le terrain. L’application fonctionne avec une partie de gamification et invite aux modifications sous forme de quêtes thématiques.
+StreetComplete est une application Android qui permet d’améliorer facilement les données d’OpenStreetMap (OSM). OSM est une carte mondiale collaborative où chacun peut ajouter ou corriger des informations (routes, bâtiments, commerces, équipements publics, etc.).
+
+StreetComplete simplifie cette contribution en proposant des “quêtes” géolocalisées : de petites questions permettant de compléter ou vérifier des données manquantes sur le terrain. L’application mise sur une approche ludique et accessible pour encourager la participation, même sans connaissance préalable d’OSM.
 
 === Objectifs du projet
 Monter en compétence sur :
@@ -45,7 +51,7 @@ Réaliser des contributions au projet open source StreetComplete :
 
 === Cas d'utilisation
 .Diagramme de cas d'utilisation
-image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/use_case.jpg[width=800, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/use_case.jpg"] 
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/use_case.jpg[width=700, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/use_case.jpg"] 
 
 == Fonctionnement du projet 
 
@@ -62,7 +68,7 @@ StreetComplete utilise MapLibre, une collection de cartes SDKs open-source pour 
 
 == Architecture de l'application
 .Diagramme de cas d'utilisation
-image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/architecture.jpg[width=400, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/architecture.jpg"] 
+image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/architecture.jpg[width=300, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/architecture.jpg"] 
 
 ++++
 <br>
