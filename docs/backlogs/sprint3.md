@@ -11,6 +11,7 @@ Liste des US sélectionnées pour ce sprint :
 - [x] Savoir quel type de borne de recharge pour véhicule électrique est disponible à proximité https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/57
 - [x] Savoir si de l'eau chaude se trouve ici https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/58
 - [x] Ecrire le nom du monument s'il est manquant https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/67
+- [x] Savoir si c'est un tableau de règles https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/61
 
 Liste des autres issues pour ce sprint :
 
