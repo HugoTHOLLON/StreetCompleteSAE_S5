@@ -1,28 +1,31 @@
-# Installer la release #
+# Installer la release
 
-## Android ##
+## Android
 
-### Récuperer l'apk ###
+### Récupérer l'APK
 
-L'apk se situe sur ce git. Dans la catégorie Release chaque sprint dispose de son APK correspondant. 
-Vous pouvez utilisez les liens si dessous pour accéder aux APK de chaque sprint. Si les liens ne fonctionnent pas pour quelque raison que ce soit, n'hésitez pas à aller chercher les APK aux endroits indiqués.
+Les APK des différentes releases sont disponibles dans l’onglet **Releases** du dépôt GitHub.  
+Chaque sprint possède sa release dédiée.
 
-### Télécharger l'apk ###
+👉 Lien vers l’APK du Sprint 3 :  [Lien](https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/releases/download/Sprint3/NonOfficial-StreetComplete.apk)
 
-[APK Sprint 1](https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/releases/download/Sprint1/NonOfficial-StreetComplete.apk)
+Si le lien ne fonctionne pas, rendez-vous dans l’onglet *Releases* du dépôt et récupérez l’APK manuellement.
 
-### Installer l'apk ###
+### Installer l'APK
 
-- Une fois l'apk téléchargée, il faut soit la transferer sur son téléphone si il n'a pas directement été télécharger dessus, pensez à choisir un dossier adapté pour le retrouver facilement lors de l'étape suivante.
-- Ensuite il faut trouver l'apk dans ses fichiers puis tapper dessus, comme pour l'ouvrir.
-- Valider ensuite la fênetre pop-up qui demande confirmation (sauf si vous pensez qu'on a de mauvaises intentions envers votre téléphone)
-- Vous avez désormais l'application installée, il faut désormais lancer directement cette application de la même manière que n'importe quelle autre application de votre téléphone.
+- Téléchargez l’APK sur votre téléphone ou transférez-le depuis votre ordinateur
+- Ouvrez votre gestionnaire de fichiers et recherchez l’APK téléchargé.
+- Touchez-le pour lancer l’installation. 
+- Si Android affiche un message concernant les “sources inconnues”, autorisez l’installation (sauf si vous pensez que l'on a de mauvaises intentions envers votre téléphone).
+- Une fois installée, l’application apparaît comme n’importe quelle autre appli sur votre téléphone.
 
-## Autre appareil mobile ##
+Vous pouvez maintenant lancer StreetComplete.
 
-Malheureusement StreetComplete n'est pas encore compatible avec d'autres appareils. Si vous ne pouvez pas vous procurez un appareil android voici la marche à suivre pour tester la release sur votre ordinateur.
+## Si vous n’avez pas d’appareil Android
 
-### Cloner le repo ###
+Il est possible de tester l’application via un émulateur Android sur ordinateur.
+
+### Cloner le dépôt
 
 Si vous avez besoin de consulter la release vous savez probablement cloner un repo, mais pour fournir le lien et juste au cas où, voici un petit rappel.
 
@@ -36,16 +39,17 @@ Si vous avez besoin de consulter la release vous savez probablement cloner un re
   ```bash
   git clone [le lien du repo]
   ```
-- Puis déplacez vous sur la bonne branche (probablement quelque chose comme "Sprint1")
+- Puis déplacez vous sur la bonne branche (probablement quelque chose comme "Sprint3")
   ```bash
   git checkout [branche]
   ```
 
-### Lancez l'émulateur ### 
+### Lancer l’application avec Android Studio
 
-- Installer Android Studio (de préférence Narval 3, étant notre environnement de dev nous pouvons garantir qu'il fonctionne)
-- Lancer le projet sous Android Studio.
-- Si vous avez placer votre repo local sous la bonne branche, Android Studio doit-y être aussi. Vous pouvez vérifier en haut à gauche que le bouton à droite inscrive bien le bon Sprint. Si il affiche "master", cliquez dessus pour changer la branche.
+- Installer Android Studio (de préférence Narval 3, étant notre environnement de dev nous pouvons garantir qu'il fonctionne).
+- Ouvrez le projet dans Android Studio.
+- Vérifiez que vous êtes sur la bonne branche (Sprint 3 ou autre) via le menu en haut à droite.
+- Créez ou sélectionnez un émulateur Android.
 - Lancez l'application avec la flèche verte en haut à droite ou en appuyant sur Maj + F10.
 (Si la flèche est grisée, une bannière bleue doit être visible en haut de l'interface de dev. Cliquez sur synchroniser. Après quelques minutes la flèche devrait devenir verte et permettre de lancer l'application.)
 - Le premier démarrage peut prendre quelques minutes le temps du build. Prenez un café en attendant que l'émulateur lance l'application.
