@@ -56,8 +56,10 @@ image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-
 == Fonctionnement du projet 
 
 === Langage et plateforme
-- Plateforme principale : Android, iOS (en cours)
-- Langage de programmation : Kotlin
+- Plateforme principale : Android (API minimale : 26, API cible : 34), iOS (en cours)
+- Langage de programmation : Kotlin (version 2.2.20)
+- Build system : Gradle Kotlin DSL
+- UI : Android Views + migration progressive vers Compose Multiplatform
 
 === Cartographie
 StreetComplete utilise MapLibre, une collection de cartes SDKs open-source pour du développement web et mobile.
@@ -67,7 +69,7 @@ StreetComplete utilise MapLibre, une collection de cartes SDKs open-source pour 
 - Upload des requêtes utilisateurs (ajout, modification et suppression des données OSM à l'aide de tags) dans la base OSM 
 
 == Architecture de l'application
-.Diagramme de cas d'utilisation
+.Diagramme d’architecture
 image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/architecture.jpg[width=300, link="https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-tech/doc-tech-assets/architecture.jpg"] 
 
 ++++
@@ -132,36 +134,24 @@ image::https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/doc-
 === Sprint 4
 
 == Structure des fichiers
-android/ +
-├── app/ +
-│   ├── src/ + 
-│   │   ├── main/ +
-│   │   │   ├── java/ +
-│   │   │   │   └── com/ +
-│   │   │   │       └── streetcomplete/ +
-│   │   │   │           ├── MainActivity.kt +
-│   │   │   │           ├── StreetMapActivity.kt +
-│   │   │   │           ├── quest/ +
-│   │   │   │           │   ├── QuestListViewModel.kt +
-│   │   │   │           │   └── QuestDetailFragment.kt +
-│   │   │   │           ├── overlay/ +
-│   │   │   │           │   └── OverlayManager.kt +
-│   │   │   │           ├── data/ +
-│   │   │   │           │   ├── OSMRepository.kt +
-│   │   │   │           │   └── models/ +
-│   │   │   │           │       └── Quest.kt +
-│   │   │   │           ├── network/ +
-│   │   │   │           │   └── OSMApiService.kt +
-│   │   │   │           └── utils/ +
-│   │   │   │               └── MapUtils.kt +
-│   │   │   ├── res/ +
-│   │   │   │   ├── layout/ +
-│   │   │   │   ├── drawable/ +
-│   │   │   │   └── values/ +
-│   │   │   └── AndroidManifest.xml +
-│   └── build.gradle.kts +
-├── build.gradle.kts +
-└── settings.gradle.kts +
+----
+android/
+└── app/
+    ├── src/
+    │   ├── main/
+    │   │   ├── java/com/streetcomplete/
+    │   │   │   ├── MainActivity.kt
+    │   │   │   ├── StreetMapActivity.kt
+    │   │   │   ├── quest/
+    │   │   │   ├── overlay/
+    │   │   │   ├── data/
+    │   │   │   ├── network/
+    │   │   │   └── utils/
+    │   │   ├── res/
+    │   │   └── AndroidManifest.xml
+    ├── build.gradle.kts
+└── settings.gradle.kts
+----
 
 **Description :** 
 
