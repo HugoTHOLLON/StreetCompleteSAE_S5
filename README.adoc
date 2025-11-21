@@ -31,7 +31,7 @@ endif::[]
 // /!\ A MODIFIER !!!
 :baseURL: github.com/HugoTHOLLON/StreetCompleteSAE_S5
 
-_Last Update: 18/11/2025_
+_Last Update: 21/11/2025_
 
 _Current version : https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/releases/tag/Sprint3[V3]_
 
@@ -98,10 +98,11 @@ Réaliser des contributions au projet open source StreetComplete :
 📊 Gestion de projet:
 
 - link:docs/Devis.pdf[Chiffrage du projet]
-- link:https://github.com/users/HugoTHOLLON/projects/4/views/1[Backlog général version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/backlog_general.md[version Markdown (coming soon)]
-- link:https://github.com/users/HugoTHOLLON/projects/5/views/1[Backlog du sprint 1 version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/sprint1.md[version Markdown (coming soon)]
-- link:https://github.com/users/HugoTHOLLON/projects/6/views/1[Backlog du sprint 2 version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/sprint2.md[version Markdown (coming soon)]
-- link:https://github.com/users/HugoTHOLLON/projects/8/views/1[Backlog du sprint 3 version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/sprint3.md[version Markdown (coming soon)]
+- link:https://github.com/users/HugoTHOLLON/projects/4/views/1[Backlog général version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/backlog_general.md[version Markdown]
+- link:https://github.com/users/HugoTHOLLON/projects/5/views/1[Backlog du sprint 1 version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/sprint1.md[version Markdown]
+- link:https://github.com/users/HugoTHOLLON/projects/6/views/1[Backlog du sprint 2 version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/sprint2.md[version Markdown]
+- link:https://github.com/users/HugoTHOLLON/projects/8/views/1[Backlog du sprint 3 version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/sprint3.md[version Markdown]
+- link:https://github.com/users/HugoTHOLLON/projects/9/views/1[Backlog du sprint 4 version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/sprint4.md[version Markdown]
 
 == Travail d'équipe
 
