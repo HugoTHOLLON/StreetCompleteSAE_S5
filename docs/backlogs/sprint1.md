@@ -1,14 +1,26 @@
-# Backlog Sprint 1 #
+#  Sprint 1 – Backlog
 
-## Fonctionnalités prévues : ##
+**Durée :** Semaine 37 à 38
+**Objectif du sprint :** _Formation et première contribution simple_
 
-- Quête "Where is the first aid kit located ?"
-- Quête "Can you use this lift both directions ?"
-- Quête "When does this operate ?"
-- Quête "Do you have to pay too park your motorcycle here ?"
-- Quête "How many bikes/trucks/scooters can be charged here at the same time ?"
+---
 
-## Documentations prévues ##
+## Scope du sprint
+Liste des US sélectionnées pour ce sprint :
 
-- Documentation de chaque quête (format adapté au wiki)
-- Document installation de la release
+- [x] Savoir si le parking moto est payant https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/52
+- [x] Savoir si ce téléphérique peut transporter des vélos https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/53
+- [x] Savoir si ce téléphérique peut aller dans les deux sens https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/54
+- [x] Connaître l'emplacement précis de la trousse de secours à proximité https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/55
+- [x] Connaître le nombre maximum de vélos/camions/scooters qui peuvent être rechargés ici https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/56
+
+## Retrospective (à la fin du sprint)
+
+### ✔️ Ce qui a bien fonctionné
+- Formation utile (Réaliser un sous-projet Kotlin https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/22 - https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/20)
+- Communication avec le client
+- Distribution des tâches
+- Mise en ligne de la Release n°1 (https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/13 - https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/14)
+
+### ❌ Ce qui peut être amélioré
+- N/A
