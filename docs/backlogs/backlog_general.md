@@ -29,6 +29,9 @@
 - [x] **US10** – *Savoir si de l'eau chaude se trouve ici* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/58)*  
 - [x] **US11** – *Ecrire le nom du monument s'il est manquant* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/67)*
 - [x] **US12** – *Savoir si c'est un tableau de règles* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/61)*
+- [x] **US13** – *Savoir si une piste de ski est éclairée* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/63)*
+- [x] **US14** – *Saisir plusieurs thèmes sur des panneaux d'informationss* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/72)*
+- [x] **US15** – *Saisir plusieurs types d'accès internet* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/73)*
 
 ### ⭐ **P2 – Priorité Moyenne**
 - N/A
@@ -69,6 +72,9 @@
 | US10 | US | P1 | v3.0 | #58 |
 | US11 | US | P1 | v3.0 | #67 |
 | US12 | US | P1 | v3.0 | #61 |
+| US13 | US | P1 | v4.0 | #63 |
+| US14 | US | P1 | v4.0 | #72 |
+| US15 | US | P1 | v4.0 | #73 |
 | BUG_1 | Tâche | P1 | v2.0 | #42 |
 | DOC_1 | Tâche | P1 | v2.0 | #41 |
 | DOC_2 | Tâche | P1 | v2.0 | #11 |
