@@ -21,6 +21,7 @@ class AddCampShower : OsmFilterQuestType<Boolean>(), AndroidQuest {
           (
             tourism ~ camp_site|alpine_hut|wilderness_hut
             or leisure = bathing_place
+            or highway = services and toilets = yes
           ) and (
             !shower
             or shower older today -4 years and shower ~ yes|no
@@ -28,7 +29,7 @@ class AddCampShower : OsmFilterQuestType<Boolean>(), AndroidQuest {
     """
     override val changesetComment = "Specify whether there are showers available"
     override val wikiLink = "Key:shower"
-    override val icon = R.drawable.ic_quest_shower
+    override val icon = R.drawable.quest_shower
     override val achievements = listOf(OUTDOORS)
 
     override fun getTitle(tags: Map<String, String>) = R.string.quest_camp_shower_title
