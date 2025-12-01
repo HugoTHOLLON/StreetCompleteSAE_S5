@@ -1,4 +1,4 @@
-package de.westnordost.streetcomplete.quests.aerialway
+package de.westnordost.streetcomplete.quests.boat_lock_self_service
 
 enum class BoatLockSelfServiceAnswer {
     YES,
