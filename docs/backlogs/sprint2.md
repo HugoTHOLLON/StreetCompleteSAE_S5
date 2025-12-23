@@ -17,6 +17,7 @@ Liste des autres issues pour ce sprint :
 - [x] BUG : Replacer le marqueur de quête qui est en dehors des zones ayant des formes atypiques https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/42
 - [x] Faire la doc des tests https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/41
 - [x] Faire la doc d'installation https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/11
+- [x] Écrire la doc. technique et utilisateur pour la V2 https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/36
 
 ## Retrospective (à la fin du sprint)
 
