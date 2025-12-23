@@ -17,6 +17,9 @@ Liste des autres issues pour ce sprint :
 
 - [x] Bug : Corriger le crash causé par le batiment de Ramonville https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/64
 - [x] Améliorer l'algorithme : polygones troués et précision adaptative https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/66
+- [x] Modify the app name of this fork https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/40
+- [x] Écrire la doc. technique et utilisateur pour la V3 https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/29
+- [x] Réaliser la v3 de la documentation de tests actuelle https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/59
 
 ## Retrospective (à la fin du sprint)
 
