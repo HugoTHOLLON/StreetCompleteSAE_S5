@@ -14,6 +14,12 @@ Liste des US sélectionnées pour ce sprint :
 - [x] Connaître l'emplacement précis de la trousse de secours à proximité https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/55
 - [x] Connaître le nombre maximum de vélos/camions/scooters qui peuvent être rechargés ici https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/56
 
+Liste des autres issues pour ce sprint :
+
+- [x] Écrire la doc. technique et utilisateur pour la V1 https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/28
+- [x] Réaliser un sous-projet Kotlin https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/22
+- [x] Suite de la formation aux technos https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/20
+
 ## Retrospective (à la fin du sprint)
 
 ### ✔️ Ce qui a bien fonctionné
