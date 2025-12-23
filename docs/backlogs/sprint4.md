@@ -8,7 +8,7 @@
 ## Scope du sprint
 Liste des US sélectionnées pour ce sprint :
 
-- [ ] Savoir si l'écluse est en libre-service https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/79
+- [x] Savoir si l'écluse est en libre-service https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/79
 
 Liste des autres issues pour ce sprint :
 
