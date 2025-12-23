@@ -8,9 +8,11 @@
 ## Scope du sprint
 Liste des US sélectionnées pour ce sprint :
 
-- [ ] Saisir plusieurs thèmes sur des panneaux d'informations https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/72
-- [ ] Saisir plusieurs types d'accès internet https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/73
-- [ ] Savoir si une piste de ski est éclairée https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/63
+- [ ] Savoir si l'écluse est en libre-service https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/79
+
+Liste des autres issues pour ce sprint :
+
+- [x] Vidéo de pitch de notre projet https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/4
 
 ## Retrospective (à la fin du sprint)
 
