@@ -31,7 +31,7 @@ endif::[]
 // /!\ A MODIFIER !!!
 :baseURL: github.com/HugoTHOLLON/StreetCompleteSAE_S5
 
-_Last Update: 21/11/2025_
+_Last Update: 23/12/2025_
 
 _Current version : https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/releases/tag/Sprint3[V3]_
 
@@ -103,6 +103,7 @@ Réaliser des contributions au projet open source StreetComplete :
 - link:https://github.com/users/HugoTHOLLON/projects/6/views/1[Backlog du sprint 2 version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/sprint2.md[version Markdown]
 - link:https://github.com/users/HugoTHOLLON/projects/8/views/1[Backlog du sprint 3 version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/sprint3.md[version Markdown]
 - link:https://github.com/users/HugoTHOLLON/projects/9/views/1[Backlog du sprint 4 version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/sprint4.md[version Markdown]
+- link:https://github.com/users/HugoTHOLLON/projects/10/views/1[Backlog du sprint 5 version GitHub] - link:https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/backlogs/sprint5.md[version Markdown]
 
 == Travail d'équipe
 
@@ -127,7 +128,10 @@ Réaliser des contributions au projet open source StreetComplete :
 | https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/ODJ-Sprint-3-08-10-25.pdf[ODJ 08/10]
 | https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/CR-Sprint-3-08-10-25.pdf[CR 08/10] 
 | OK
-| N°4 - Semaine 47 à 50  | [A remplir] | [A remplir] | En cours
+| N°4 - Semaine 47 à 50  
+| N/A 
+| N/A 
+| OK
 | N°5 - Semaine 2 à 4  | [A remplir] | [A remplir] | Début le 05/01
 |===
 
