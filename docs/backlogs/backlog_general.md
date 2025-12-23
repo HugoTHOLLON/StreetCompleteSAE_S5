@@ -29,12 +29,13 @@
 - [x] **US10** – *Savoir si de l'eau chaude se trouve ici* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/58)*  
 - [x] **US11** – *Ecrire le nom du monument s'il est manquant* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/67)*
 - [x] **US12** – *Savoir si c'est un tableau de règles* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/61)*
-- [x] **US13** – *Savoir si une piste de ski est éclairée* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/63)*
-- [x] **US14** – *Saisir plusieurs thèmes sur des panneaux d'informationss* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/72)*
-- [x] **US15** – *Saisir plusieurs types d'accès internet* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/73)*
+- [x] **US13** – *Savoir si l'écluse est en libre-service* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/79)*
 
 ### ⭐ **P2 – Priorité Moyenne**
-- N/A
+- [x] **US14** – *Savoir si une piste de ski est éclairée* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/63)*
+- [x] **US15** – *Saisir plusieurs thèmes sur des panneaux d'informationss* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/72)*
+- [x] **US16** – *Saisir plusieurs types d'accès internet* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/73)*
+- [x] **US17** – *Savoir où est située la pipeline* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/78)*
 
 ### 🟢 **P3 – Basse Priorité**
 - N/A
@@ -46,14 +47,22 @@
 
 ### 🔥 **P1**
 - [x] **BUG_1** – *Replacer le marqueur de quête qui est en dehors des zones ayant des formes atypiques* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/42)*
-- [x] **DOC_1** – *Faire la doc des tests* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/41)*
-- [x] **DOC_2** – *Faire la doc d'installation* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/11)*
+- [x] **DOC_1** – *Écrire la doc. technique et utilisateur pour la V1* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/28)*
+- [x] **DOC_2** – *Faire la doc des tests* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/41)*
+- [x] **DOC_3** – *Faire la doc d'installation* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/11)*
+- [x] **DOC_4** – *Écrire la doc. technique et utilisateur pour la V2* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/36)*
+- [x] **DOC_5** – *Écrire la doc. technique et utilisateur pour la V3* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/29)*
+- [x] **DOC_6** – *Réaliser la v3 de la documentation de tests actuelle* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/59)*
+- [x] **DOC_7** – *Vidéo de pitch de notre projet* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/4)*
 
 ### ⭐ **P2**
 - [x] **BUG_2** – *Corriger le crash causé par le batiment de Ramonville* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/64)*
 
 ### 🟢 **P3**
 - [x] **ENHANCEMENT_1** – *Polygones troués et précision adaptative* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/66)*
+- [x] **ENHANCEMENT_2** – *Modify the app name of this fork* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/40)*
+- [x] **FORMATION_1** – *Réaliser un sous-projet Kotlin* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/22)*
+- [x] **FORMATION_2** – *Suite de la formation aux technos* — *(voir issue https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/issues/20)*
 
 ---
 
@@ -73,10 +82,20 @@
 | US11 | US | P1 | v3.0 | #67 |
 | US12 | US | P1 | v3.0 | #61 |
 | US13 | US | P1 | v4.0 | #63 |
-| US14 | US | P1 | v4.0 | #72 |
-| US15 | US | P1 | v4.0 | #73 |
+| US14 | US | P2 | v5.0 | #63 |
+| US15 | US | P2 | v5.0 | #72 |
+| US16 | US | P2 | v5.0 | #73 |
+| US17 | US | P2 | v5.0 | #73 |
 | BUG_1 | Tâche | P1 | v2.0 | #42 |
-| DOC_1 | Tâche | P1 | v2.0 | #41 |
-| DOC_2 | Tâche | P1 | v2.0 | #11 |
+| DOC_1 | Tâche | P1 | v1.0 | #28 |
+| DOC_2 | Tâche | P1 | v2.0 | #41 |
+| DOC_3 | Tâche | P1 | v2.0 | #11 |
+| DOC_4 | Tâche | P1 | v2.0 | #36 |
+| DOC_5 | Tâche | P1 | v3.0 | #29 |
+| DOC_6 | Tâche | P1 | v3.0 | #59 |
+| DOC_7 | Tâche | P1 | v4.0 | #4 |
 | BUG_2 | Tâche | P2 | v3.0 | #64 |
 | ENHANCEMENT_1 | Tâche | P3 | v3.0 | #66 |
+| ENHANCEMENT_2 | Tâche | P3 | v3.0 | #40 |
+| FORMATION_1 | Tâche | P3 | v1.0 | #22 |
+| FORMATION_2 | Tâche | P3 | v1.0 | #20 |
