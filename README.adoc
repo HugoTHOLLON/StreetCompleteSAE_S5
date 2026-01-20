@@ -132,7 +132,7 @@ Réaliser des contributions au projet open source StreetComplete :
 | N/A 
 | N/A 
 | OK
-| N°5 - Semaine 2 à 4  | [A remplir] | [A remplir] | Début le 05/01
+| N°5 - Semaine 2 à 4  
 | https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/ODJ-Sprint-5-05-01-26.pdf[ODJ 05/01]
 | https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/tree/master/docs/ODJ-CR/CR-Sprint-5-05-01-26.pdf[CR 05/01] 
 | OK
