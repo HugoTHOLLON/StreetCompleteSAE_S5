@@ -541,12 +541,16 @@ class MainActivity :
     override fun getRecordedTrack(): List<Trackpoint>? =
         mapFragment?.recordedTracks
 
-    private fun getQuestFormInsets() = Insets.of(
-        resources.getDimensionPixelSize(R.dimen.quest_form_leftOffset),
-        resources.getDimensionPixelSize(R.dimen.quest_form_topOffset),
-        resources.getDimensionPixelSize(R.dimen.quest_form_rightOffset),
-        resources.getDimensionPixelSize(R.dimen.quest_form_bottomOffset)
-    )
+    private fun getQuestFormInsets(): Insets {
+        val isLandscape = resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE
+
+        return Insets.of(
+            resources.getDimensionPixelSize(R.dimen.quest_form_leftOffset),
+            resources.getDimensionPixelSize(R.dimen.quest_form_topOffset),
+            resources.getDimensionPixelSize(R.dimen.quest_form_rightOffset),
+            resources.getDimensionPixelSize(R.dimen.quest_form_bottomOffset)
+        )
+    }
 
     //endregion
 
@@ -849,6 +853,7 @@ class MainActivity :
         unfreezeMap()
         mapFragment?.endFocus()
         sheetBackPressedCallback.isEnabled = false
+        viewModel.setBottomSheetOpen(false)
     }
 
     /** Open or replace the bottom sheet. If the bottom sheet is replaces, no appear animation is
@@ -868,6 +873,7 @@ class MainActivity :
             addToBackStack(BOTTOM_SHEET)
         }
         sheetBackPressedCallback.isEnabled = f is IsCloseableBottomSheet
+        viewModel.setBottomSheetOpen(true)
     }
 
     /** Make the map not follow the user's location anymore temporarily */
@@ -908,12 +914,12 @@ class MainActivity :
         val args = AbstractOverlayForm.createArguments(overlay, null, null, rotation, tilt)
         f.requireArguments().putAll(args)
 
-        showInBottomSheet(f)
         val pos = getCrosshairPoint()?.let { getMapPositionAt(it) }
         mapFragment.updateCameraPosition {
             position = pos
             padding = getQuestFormInsets().toPadding()
         }
+        showInBottomSheet(f)
         mapFragment.hideNonHighlightedPins()
     }
 
@@ -1043,7 +1049,7 @@ class MainActivity :
         val left = resources.getDimensionPixelSize(R.dimen.quest_form_leftOffset)
         val right = resources.getDimensionPixelSize(R.dimen.quest_form_rightOffset)
         val top = resources.getDimensionPixelSize(R.dimen.quest_form_topOffset)
-        val bottom = resources.getDimensionPixelSize(R.dimen.quest_form_bottomOffset)
+        val bottom = if (viewModel.isBottomSheetOpen.value) resources.getDimensionPixelSize(R.dimen.quest_form_bottomOffset) else resources.getDimensionPixelSize(R.dimen.quest_form_topOffset)
         val x = (view.width + left - right) / 2f
         val y = (view.height + top - bottom) / 2f
         return PointF(x, y)

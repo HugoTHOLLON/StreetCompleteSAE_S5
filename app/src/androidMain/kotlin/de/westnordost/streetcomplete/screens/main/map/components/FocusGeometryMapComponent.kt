@@ -3,6 +3,7 @@ package de.westnordost.streetcomplete.screens.main.map.components
 import android.animation.TimeAnimator
 import android.content.ContentResolver
 import android.provider.Settings
+import android.util.Log
 import androidx.annotation.UiThread
 import androidx.core.graphics.Insets
 import androidx.lifecycle.DefaultLifecycleObserver
@@ -157,6 +158,10 @@ class FocusGeometryMapComponent(private val contentResolver: ContentResolver, pr
             map.updateCamera(zoomTime, contentResolver) {
                 position = pos.position
                 zoom = pos.zoom
+                padding = Padding(0.0, 0.0, 0.0, 0.0)
+            }
+        } else{
+            map.updateCamera(0, contentResolver) {
                 padding = Padding(0.0, 0.0, 0.0, 0.0)
             }
         }
