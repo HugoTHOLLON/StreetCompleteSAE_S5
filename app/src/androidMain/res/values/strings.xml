@@ -134,6 +134,12 @@ The info you enter is directly added to OpenStreetMap in your name, without the 
     <string name="on_floor">on floor %1$s</string>
     <!-- as in: “Where is the metro station?” - “It is underground” -->
     <string name="underground">underground</string>
+    <!-- as in: “Where is the metro station?” - “It is underground” -->
+    <string name="overground">overground</string>
+    <!-- as in: “Where is the metro station?” - “It is underground” -->
+    <string name="overhead">overhead</string>
+    <!-- as in: “Where is the metro station?” - “It is underground” -->
+    <string name="underwater">underwater</string>
     <string name="bridge">on bridge</string>
     <string name="at_housename">house name %1$s</string>
     <string name="at_housenumber">house number %1$s</string>
@@ -1416,6 +1422,8 @@ If there are no signs along the whole street which apply for the highlighted sec
     <string name="quest_pedestrian_crossing_markings">Does this crossing have markings across the roadway?</string>
 
     <string name="quest_amenityCover_title">Is this covered (protected from rain)?</string>
+
+    <string name="quest_pipeline_location_title">Where is the pipeline located?</string>
 
     <string name="quest_placeName_title">What’s the name of this place?</string>
     <string name="quest_placeName_no_name_answer">There is no name sign…</string>
