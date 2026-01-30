@@ -122,6 +122,7 @@ import de.westnordost.streetcomplete.quests.parking_access.AddParkingAccess
 import de.westnordost.streetcomplete.quests.parking_fee.AddBikeParkingFee
 import de.westnordost.streetcomplete.quests.parking_fee.AddParkingFee
 import de.westnordost.streetcomplete.quests.parking_type.AddParkingType
+import de.westnordost.streetcomplete.quests.pipeline_location.AddPipelineLocation
 import de.westnordost.streetcomplete.quests.pitch_lit.AddPitchLit
 import de.westnordost.streetcomplete.quests.place_name.AddPlaceName
 import de.westnordost.streetcomplete.quests.playground_access.AddPlaygroundAccess
@@ -455,6 +456,8 @@ fun questTypeRegistry(
     110 to AddAirConditioning(), // often visible from the outside across the street, if not, visible/feelable inside
 
     111 to AddSmoking(), // often marked on the entrance, if not, visible/smellable inside
+
+    191 to AddPipelineLocation(),
 
     /* ↓ 4.quests that may need to go inside ------------------------------------------------ */
 
