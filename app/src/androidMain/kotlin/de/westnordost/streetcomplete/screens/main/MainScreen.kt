@@ -116,6 +116,8 @@ fun MainScreen(
     val selectedOverlay by viewModel.selectedOverlay.collectAsState()
     val isCreateNodeEnabled by remember { derivedStateOf { selectedOverlay?.isCreateNodeEnabled == true } }
 
+    val isBottomSheetOpen by viewModel.isBottomSheetOpen.collectAsState()
+
     val isAutoSync by viewModel.isAutoSync.collectAsState()
     val unsyncedEditsCount by viewModel.unsyncedEditsCount.collectAsState()
 
@@ -216,7 +218,7 @@ fun MainScreen(
 
     Box(modifier) {
         if (isCreateNodeEnabled) {
-            Crosshair()
+            Crosshair(isBottomSheetOpen)
         }
 
         var screen by remember { mutableStateOf<Rect?>(null) }

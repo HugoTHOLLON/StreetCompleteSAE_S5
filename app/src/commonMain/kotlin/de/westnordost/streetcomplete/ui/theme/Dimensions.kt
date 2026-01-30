@@ -4,6 +4,16 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
+fun getCrosshairPadding(totalWidth: Dp, totalHeight: Dp, bottomSheetOpen: Boolean): PaddingValues {
+    val isLandscape = totalWidth > totalHeight
+    return PaddingValues.Absolute(
+        left = if (isLandscape && bottomSheetOpen) getMaxQuestFormWidth(totalWidth) else 0.dp,
+        top = 0.dp,
+        right = 0.dp,
+        bottom = if (isLandscape || !bottomSheetOpen) 0.dp else 320.dp
+    )
+}
+
 /** Padding on the map due to an open quest form */
 fun getOpenQuestFormMapPadding(totalWidth: Dp, totalHeight: Dp): PaddingValues {
     val isLandscape = totalWidth > totalHeight

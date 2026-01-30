@@ -1,5 +1,7 @@
 package de.westnordost.streetcomplete.screens.main
 
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.runtime.MutableState
 import androidx.compose.ui.geometry.Offset
 import androidx.lifecycle.ViewModel
 import de.westnordost.streetcomplete.data.messages.Message
@@ -47,6 +49,9 @@ abstract class MainViewModel : ViewModel() {
     abstract var hasShownOverlaysTutorial: Boolean
 
     abstract fun selectOverlay(overlay: Overlay?)
+
+    abstract val isBottomSheetOpen: StateFlow<Boolean>
+    abstract fun setBottomSheetOpen(open: Boolean)
 
     /* team mode */
     abstract val isTeamMode: StateFlow<Boolean>

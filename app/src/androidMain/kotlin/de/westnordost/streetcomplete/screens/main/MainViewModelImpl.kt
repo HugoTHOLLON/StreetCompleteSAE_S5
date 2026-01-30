@@ -1,5 +1,6 @@
 package de.westnordost.streetcomplete.screens.main
 
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.ui.geometry.Offset
 import androidx.lifecycle.viewModelScope
 import de.westnordost.streetcomplete.data.UnsyncedChangesCountSource
@@ -205,6 +206,11 @@ class MainViewModelImpl(
         }
     }
 
+    private val _isBottomSheetOpen = MutableStateFlow<Boolean>(false)
+    override val isBottomSheetOpen: StateFlow<Boolean> = _isBottomSheetOpen
+    override fun setBottomSheetOpen(open: Boolean) {
+        _isBottomSheetOpen.value = open
+    }
     /* team mode */
 
     override val isTeamMode = MutableStateFlow(teamModeQuestFilter.isEnabled)

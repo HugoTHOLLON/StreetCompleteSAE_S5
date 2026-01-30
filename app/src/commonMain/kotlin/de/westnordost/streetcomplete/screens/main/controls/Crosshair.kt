@@ -1,6 +1,7 @@
 package de.westnordost.streetcomplete.screens.main.controls
 
 import androidx.compose.foundation.layout.BoxWithConstraints
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.ContentAlpha
@@ -10,23 +11,27 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import de.westnordost.streetcomplete.resources.Res
 import de.westnordost.streetcomplete.resources.crosshair
 import de.westnordost.streetcomplete.ui.theme.AppTheme
+import de.westnordost.streetcomplete.ui.theme.getCrosshairPadding
+import de.westnordost.streetcomplete.ui.theme.getMaxQuestFormWidth
 import de.westnordost.streetcomplete.ui.theme.getOpenQuestFormMapPadding
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 /** A crosshair at the position at which a new POI should be created */
 @Composable
-fun Crosshair(modifier: Modifier = Modifier) {
+fun Crosshair(isBottomSheetOpen: Boolean, modifier: Modifier = Modifier) {
     BoxWithConstraints(modifier.fillMaxSize()) {
         Icon(
             painter = painterResource(Res.drawable.crosshair),
             contentDescription = null,
             modifier = Modifier
                 .align(Alignment.Center)
-                .padding(getOpenQuestFormMapPadding(maxWidth, maxHeight)),
+                .padding(getCrosshairPadding(maxWidth, maxHeight, isBottomSheetOpen)),
+                // .padding(getOpenQuestFormMapPadding(maxWidth, maxHeight)),
             tint = MaterialTheme.colors.onSurface.copy(alpha = ContentAlpha.medium)
         )
     }
@@ -37,7 +42,7 @@ fun Crosshair(modifier: Modifier = Modifier) {
 private fun PreviewCrosshair() {
     AppTheme {
         Surface {
-            Crosshair()
+            Crosshair(true)
         }
     }
 }
