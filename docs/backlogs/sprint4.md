@@ -17,7 +17,7 @@ Liste des autres issues pour ce sprint :
 ## Retrospective (à la fin du sprint)
 
 ### ✔️ Ce qui a bien fonctionné
-- ...
+- Script du pitch bien réalisé([Lien vers le script en version PDF](https://github.com/HugoTHOLLON/StreetCompleteSAE_S5/blob/master/docs/pitch/Script_Pitch_StreetComplete.pdf))  
 
 ### ❌ Ce qui peut être amélioré
-- ...
+- Mauvaise gestion du temps([Lien vers le projet du sprint 4](https://github.com/users/HugoTHOLLON/projects/9))
